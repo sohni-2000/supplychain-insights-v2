@@ -31,9 +31,11 @@ The project is designed to showcase **data engineering + analytics + ML skills**
 ### 📂 Profiles Tab
 ![Profiles](screenshots/profiles.png)
 
-### 📈 Forecasting Tab
-![Forecast](screenshots/forecast.png)
+### 📊 EDA Tab
+![EDA](screenshots/eda.png)
 
+### 📈 Forecasting Tab
+![Forecast](screenshots/forecasting.png)
 
 
 ---
