@@ -34,7 +34,7 @@ The project is designed to showcase **data engineering + analytics + ML skills**
 ### 📈 Forecasting Tab
 ![Forecast](screenshots/forecast.png)
 
-*(Screenshots stored in `screenshots/` folder. Replace placeholders with your PNGs.)*
+
 
 ---
 
