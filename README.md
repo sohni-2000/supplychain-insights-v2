@@ -17,7 +17,7 @@ Check out the live app here:
 ## 📌 Project Overview
 This is an **interactive Streamlit dashboard** built for supply chain analytics.  
 It demonstrates:
-- **Exploratory Data Analysis (EDA):** Sales by category, region, and time trends.
+- **Exploratory Data Analysis (EDA):** Sales by category, region, and monthly trends
 - **Customer Segmentation:** RFM-style features with KMeans clustering.
 - **Forecasting:** Sales forecasts using Prophet (with fallback to rolling mean).
 
@@ -44,6 +44,21 @@ The project is designed to showcase **data engineering + analytics + ML skills**
 
 ---
 
+## 🛠️ Tech Stack  
+- **Python** (Pandas, NumPy, Scikit-learn)  
+- **Plotly** for interactive charts  
+- **Streamlit** for web app UI  
+- **Prophet** for forecasting  
+
+---
+
+## 📂 Data Setup  
+- Place your dataset as `data/train.csv` (NOT tracked in Git).  
+- A tiny demo dataset is included: `data/sample_data.csv`.  
+  To run without real data, copy it to `train.csv`:  
+  ```bash
+  copy data\sample_data.csv data\train.csv
+
 ## ⚙️ Run Locally  
 
 ```bash
@@ -56,15 +71,6 @@ pip install -r requirements.txt
 
 # 3. Run the app
 streamlit run app/app.py
-📂 Data setup
-Place your full dataset as data/train.csv (kept local / not in Git).
-
-A tiny demo dataset (data/sample_data.csv) is included.
-To run without real data, copy it to train.csv:
-
-bash
-Copy code
-copy data\sample_data.csv data\train.csv
 
 📜 License
 MIT License © 2025 Sohni Korrapolu
