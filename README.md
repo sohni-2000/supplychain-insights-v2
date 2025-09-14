@@ -8,6 +8,11 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5.1-F7931E?logo=scikit-learn&logoColor=white)
 
 ---
+## 🌐 Live Demo  
+Check out the live app here:  
+👉 [Supply Chain Insights Dashboard](https://supplychain-insights-v2-ejm6tu4at6nc79li9khu83.streamlit.app)  
+
+---
 
 ## 📌 Project Overview
 This is an **interactive Streamlit dashboard** built for supply chain analytics.  
@@ -39,7 +44,19 @@ The project is designed to showcase **data engineering + analytics + ML skills**
 
 ---
 
-📊 Data Setup
+## ⚙️ Run Locally  
+
+```bash
+# 1. Create virtual environment
+python -m venv .venv
+.\\.venv\\Scripts\\activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the app
+streamlit run app/app.py
+📂 Data setup
 Place your full dataset as data/train.csv (kept local / not in Git).
 
 A tiny demo dataset (data/sample_data.csv) is included.
@@ -47,15 +64,7 @@ To run without real data, copy it to train.csv:
 
 bash
 Copy code
-copy data\sample_data.csv data\train.csv   # Windows
-cp data/sample_data.csv data/train.csv     # Mac/Linux
+copy data\sample_data.csv data\train.csv
 
 📜 License
-This project is licensed under the MIT License.
-
-
-
-
-
-
-
+MIT License © 2025 Sohni Korrapolu
