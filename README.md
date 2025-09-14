@@ -46,3 +46,9 @@ python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app/app.py
+
+### Data setup
+- Place your full dataset as `data/train.csv` (kept local / not in Git).
+- A tiny demo dataset (`data/sample_data.csv`) is included. To run without real data, copy it to train.csv:
+  ```bash
+  copy data\sample_data.csv data\train.csv
