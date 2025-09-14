@@ -12,7 +12,7 @@ Thumbs.db
 
 # Data (keep a tiny sample only)
 data/*
-!data/README.md
+!data/sample_data.csv
 
 # Optional: if your outputs are large, ignore them too
 # outputs/*
