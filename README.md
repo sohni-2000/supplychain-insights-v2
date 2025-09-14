@@ -49,21 +49,6 @@ bash
 Copy code
 copy data\sample_data.csv data\train.csv   # Windows
 cp data/sample_data.csv data/train.csv     # Mac/Linux
-📸 Screenshots
-Overview
-
-
-Customers
-
-
-Profiles
-
-
-EDA
-
-
-Forecasting
-
 
 📜 License
 This project is licensed under the MIT License.
