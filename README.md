@@ -1,23 +1,6 @@
+# 📂 Data Folder  
 
-Interactive Streamlit app:
+This folder is for **raw datasets** (e.g., `train.csv`).  
+To keep the repository lightweight, raw data files are **not tracked in Git**.  
 
-\- EDA: Category, Region, Monthly trends
-
-\- Customer Segmentation: RFM-style features + KMeans
-
-\- Forecasting: Prophet (if provided) or rolling-mean fallback
-
-
-
-\## Run locally
-
-```bash
-
-python -m venv .venv
-
-.\\.venv\\Scripts\\activate
-
-pip install -r requirements.txt
-
-streamlit run app/app.py
-
+👉 Place your local training data here before running the app.
