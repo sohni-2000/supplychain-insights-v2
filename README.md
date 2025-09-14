@@ -1,5 +1,10 @@
 \# Supply Chain Insights (EDA • Segmentation • Forecasting)
 
+git add README.md
+git commit -m "Add polished README with screenshots and sections"
+git pull --rebase origin main
+git push
+
 
 
 Interactive Streamlit app:
